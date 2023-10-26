@@ -11765,3 +11765,13 @@ html {
 .no-wrap-text {
   white-space: nowrap;
 }
+
+.nav-item .dropdown-item:hover, .nav-item .dropdown-item:focus {
+  background-color: #808080;
+  color: white;
+}
+
+.nav-item .dropdown-item:active {
+  background-color: #8B0000;
+  color: white;
+}
